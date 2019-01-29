@@ -1,0 +1,137 @@
+body {
+    background-color: #EEE;
+    font-family: 'Georgia',Helvetica, Arial, sans-serif;
+}
+
+#header {
+  background-image: url("https://alexanderfeldchurch.org/wp-content/uploads/2016/10/green-forest-and-clouds-website-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  color: black;
+  padding: 80px;
+}
+
+h1, h2, h3  {
+  margin: 0;
+  padding: 10px;
+}
+
+#container {
+    background-color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#content {
+  padding: 10px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color:#18453b;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #97a2a2;
+  color: white;
+}
+
+#float-right {
+  float: right;
+}
+
+#main {
+  margin: 10px;
+  padding: 10px;
+  width: 780px;
+  border-bottom: 10px solid #18453b;
+  background-color: #97a2a2;
+  border-radius: 10px;
+}
+
+#contact {
+  margin: 10px;
+  padding: 10px;
+  width: 440px;
+  border-bottom: 10px solid #18453b;
+  background-color: #97a2a2;
+  border-radius: 10px;
+  float: right;
+}
+
+#gallery {
+  margin: 10px;
+  float: left;
+  border-style: solid;
+  border-color: #18453b;
+  border-radius: 10px;
+}
+
+#student-group {
+  clear: both;
+  margin: 20px;
+  border: 20px;
+  padding: 10px;
+  color: black;
+  text-align: left;
+}
+
+#student-group .h3 {
+  color: white;
+  float: left;
+}
+
+#student-group a {
+  color:white;
+}
+
+#footer {
+  clear: both;
+  padding: 10px;
+  background-color: #97a2a2;
+  color: white;
+  text-align: right;
+}
+
+.schedule-date {
+  font-weight: bold;
+  color: black;
+  text-align: right;
+}
+.schedule-resources {
+  font-weight: lighter;
+  color: black;
+  text-align: left;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color:#97a2a2;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
